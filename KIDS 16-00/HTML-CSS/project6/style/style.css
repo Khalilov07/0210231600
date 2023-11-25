@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* width: 100%; */
+    top: 0px;
+    position: sticky;
+}
+
+section {
+    height: 100vh;
+    /* view port height */
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+}
+
+.pink {
+    background: pink;
+}
+
+.darkgreen {
+    background: darkgreen;
+}
+
+/* 
+    height - высота
+    width - ширина
+    padding-top = отступ сверху
+*/
+
+/* body {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} */
+
+/* a {
+    /* display: block; блочный */
+/* } */
+
+/* h1 { */
+    /* display: inline; - строчный */
+/* } */ 
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* 
+        static - дефолт
+        relative - он будет двигаться относительно своего место положения
+        absolute - удаляется из обычного потока документа и двигается относительно 
+    */
+    background-color: red;
+}
+
+.box1 {
+    top: 20px;
+}
+
+.relative {
+    top: 20px;
+    position: sticky;
+    background: green;
+}

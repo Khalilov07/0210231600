@@ -1,0 +1,95 @@
+/* * = все элемент на странице  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px; /* высота */
+    display: flex; /* выставляет блоки с лева на права */
+    align-items: center; /* меняет направление элементов с верху внизу (по вертикали) */
+    justify-content: center;
+}
+
+main {
+    display: flex; /* это свойство выставляет по горизонту и делает элементы гибкими */ 
+    flex-wrap: wrap; /* позволяет переместить див на новую строку в случае нехватки места */
+    justify-content: space-around; /* меняет позиционирование блоков с лева на права */
+}
+
+a {
+    /* display: block; делает элемент блочным */
+    background-color: red;
+}
+
+.box {
+    height: 300px;
+    margin-top: 10px;
+    /* display: inline; =  делает элемент строчным */
+    background-color: red;
+}
+
+/* 
+    justify-content:
+    flex-end = в конец
+    flex-start = в начало
+    center = в центр
+    space-around = отступы между картинками
+    space-between =
+*/
+
+.item {
+    width: 45%; /* ширина */
+    height: 250px; /* высота */
+    margin-bottom: 20px;
+    background-color: khaki;
+    transition: 0.5s; /* плавность (задается в секундах, мили секундах) */ 
+}
+
+/* hover - это псевдокласс (работает при наведении) */
+.item:hover {
+    transform: scale(1.1); /* увеличивает или уменьшает элемент визуально */
+    transform: rotate(-5deg); /* поворачивает элемент при помощи градусов  */ 
+    transform: skew(-10deg);
+    background-color: cadetblue;
+}
+
+.item1 {
+    background-image: url(../images/hasbik1.jpg); /* фото в виде фона */
+    background-repeat: no-repeat; /* убирает повторение картинки */
+    background-size: contain; /* изменяет размер картинки */
+    background-position: center; /* позиция картинки в диве */ 
+}
+
+.item2 {
+    background-image: url(../images/hasbiknakaifu.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* 
+    main {
+        width: 80%;
+    } Обращение по тегу (тег является селектором) 
+
+    .main {
+
+    } Обращение по классу (класс является селектором)
+
+*/
+
+/* 
+    background-image: ; = задний фон в виде фотки
+    calc = калькулятор: width: calc(100% / 2) = 50% ширины элемента;  
+*/
+
+/* 
+    чтобы обратится по тегу мы пишем название тега 
+    чтобы обратится по классу мы пишем .название класса
+*/
+
+/* 
+    свойство: значение;
+*/

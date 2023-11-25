@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* позволяет убрать острые углы у текста */
+}
+
+header {
+    height: 90vh;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    background-repeat: no-repeat; /* убрать повтор картинки */
+    background-size: cover; /* растянуть картинку сохранив пропорции */ 
+    background-image: url(../images/img1.jpg);
+}
+
+.container {
+    width: 70vw; /* vw */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.header__descr {
+    padding-top: 150px;
+    /* width: 60%; */
+}
+
+.header__descr h2, h3 {
+    text-transform: uppercase; /* позволяет сделать текст с заглавными буквами */
+}
+
+.header__descr h2 {
+    opacity: 0.7; /* прозрачность */
+}
+
+.header__descr h3 {
+    font-size: 65px;
+}
+
+.header__descr p {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+/* 
+    px - пиксели
+    % - проценты
+
+    vh - вся высота
+    vw - вся ширина
+*/
+
+main {
+    height: 100vh;
+}
+
+.main__descr {
+    display: flex;
+    align-items: center; /* выравнивает по вертикали */ 
+    padding-top: 60px;
+}
+
+.main__descr h2 {
+    font-size: 35px; /* размер текста */
+    font-weight: 300; /* ширина текста */ 
+}
+
+.main__descr p {
+    opacity: 0.7;
+    margin-left: 40px;
+}
+
+.main__left {
+    width: 50%;
+}
+
+.main__left img {
+    width: 100%;    
+}
+
+.main__right {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.main__right img {
+    margin-bottom: 20px;
+}
+
+.main__gallery {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer {
+    height: 40vh;
+    display: flex;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/img5.jpg);
+}
+
+.footer__info {
+    width: 50%;
+    display: flex;
+    align-items: center; /* выравнивает по вертикали, но когда мы используем
+    flex direction column направления меняются */ 
+    flex-direction: column;
+}
+
+.footer__info h2 {
+    font-weight: 200;
+    margin-bottom: 20px;
+    padding: 5px 12px;
+    border: 1px solid white; /* границы */
+}
+
+.footer__info p {
+    opacity: 0.7;
+}

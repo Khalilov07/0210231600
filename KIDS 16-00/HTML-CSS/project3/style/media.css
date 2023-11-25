@@ -1,0 +1,31 @@
+@media (max-width: 414px) {
+    h1 {
+        font-size: 30px;
+    }
+    .header__descr {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .header__descr h3 {
+        margin-top: 20px;
+    }
+
+    .header__descr p {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .main__gallery {
+        display: block;
+    }
+
+    .main__descr {
+        display: block;
+    }
+
+    .main__gallery div, div img {
+        width: 100%;
+    }
+
+}

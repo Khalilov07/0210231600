@@ -1,0 +1,88 @@
+/* 
+    * - все элементы на сайте
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+p {
+    padding: 20px 0;
+}
+
+main {
+    margin: 50px;
+    background-color: khaki;
+    border-radius: 10px;
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-bottom: 50px; */
+    /* 
+    padding: ;
+    margin: ; 
+    */
+    /* #hex - трех значное число с буквами или шестизначное число с буквами */
+}
+
+p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin-top: 25px;
+}
+
+img {
+    width: 700px;
+}
+
+
+/* 
+    обращение в стилях по тегу = "название тега"
+    обращение в стилях по классу = ".название класса"
+    shift + [ = {} - английская раскладка
+    ctrl + a + k + f = форматирование кода
+*/
+
+/* 
+    свойства - помогают управлять стилями тегов
+    название свойства : значение  ; 
+
+    color - цвет текста
+    font-size - размер текста
+    text-align - направление текста
+    width - ширина (1000px)
+    height - высота (800px) 
+
+    margin - внешний отступ (px): top, right, bottom, left
+    padding - внутренний отступ (px): top, right, bottom, left
+
+    margin: 10px - одно число = будет задаваться со всех сторон; тоже самое и c padding
+
+*/
